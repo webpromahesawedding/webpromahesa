@@ -100,23 +100,6 @@
               <div class="custom-menu" style="left: 100px;">
                 <div id="shopping-cart">
                   <div class="shopping-cart-list">
-                    <?php 
-                    $total_berat = 0;
-                    if(isset($_SESSION['keranjang'])){
-
-                      $jumlah_isi_keranjang = count($_SESSION['keranjang']);
-
-                      if($jumlah_isi_keranjang != 0){
-                        // cek apakah produk sudah ada dalam keranjang
-                        for($a = 0; $a < $jumlah_isi_keranjang; $a++){
-                          $id_produk = $_SESSION['keranjang'][$a]['produk'];
-                          $i = $this->db->query("select * from produk where produk_id='$id_produk'")->row();
-
-                          $xd = $i->$_SESSION['keranjang'][$a]['jumlah']; 
-
-                          $total_berat += $xd;
-                          ?>
-
                           <div class="product product-widget">
                             <div class="product-thumb">
                               <?php if($i->produk_foto1 == ""){ ?>
