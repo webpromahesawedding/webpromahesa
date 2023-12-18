@@ -113,8 +113,6 @@
                           $i = $this->db->query("select * from produk where produk_id='$id_produk'")->row();
 
                           $xd = $i->$_SESSION['keranjang'][$a]['jumlah']; 
-
-                          $total_berat += $xd;
                           ?>
 
                           <div class="product product-widget">
