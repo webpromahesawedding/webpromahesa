@@ -210,7 +210,7 @@
       <div id="responsive-nav">
         <!-- category nav -->
         <div class="category-nav show-on-click">
-          <span class="category-header">Kategori Produk <i class="fa fa-list"></i></span>
+          <span class="category-header">Pilih Kategori <i class="fa fa-list"></i></span>
           <ul class="category-list">
             <?php 
             $data = $this->db->query("SELECT * FROM kategori")->result();
@@ -230,7 +230,7 @@
           <span class="menu-header">Menu <i class="fa fa-bars"></i></span>
           <ul class="menu-list">
             <li><a href="<?php echo base_url(); ?>">Home</a></li>
-            <li><a href="<?php echo base_url(); ?>">Shop</a></li>
+            <li><a href="<?php echo base_url(); ?>">Booking</a></li>
             <?php 
             if(!isset($_SESSION['customer_status'])){
               ?>
