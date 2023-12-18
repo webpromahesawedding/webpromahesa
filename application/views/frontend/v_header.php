@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   
-  <title>TOKO ONLINE KOPI COFFEE SEDAP</title>
+  <title>MAHESA WEDDING</title>
 
   <!-- Google font -->
   <link href="https://fonts.googleapis.com/css?family=Hind:400,700" rel="stylesheet">
