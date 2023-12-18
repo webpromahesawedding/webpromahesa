@@ -16,7 +16,7 @@
           </div>
           <!-- /footer logo -->
 
-          <p>Mari wujudkan pesta pernikahan impian anda beserta keluarga bersama kami Mahesa Wedding Organizer</p>
+          <p>Mari wujudkan pesta pernikahan impian anda beserta keluarga bersama kami Mahesa Wedding Organizer. </p>
 
         </div>
       </div>
