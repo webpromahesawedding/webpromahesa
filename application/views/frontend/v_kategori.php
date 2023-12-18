@@ -109,7 +109,7 @@
 
             <?php 
             if(count($data) == 0){
-              echo "<center><h3>Belum Ada Produk</h3></center>";
+              echo "<center><h3>Belum Ada Pesanan</h3></center>";
             }
             ?>
 
