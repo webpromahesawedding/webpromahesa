@@ -112,7 +112,7 @@
                           $id_produk = $_SESSION['keranjang'][$a]['produk'];
                           $i = $this->db->query("select * from produk where produk_id='$id_produk'")->row();
 
-                          $xd = $i->produk_berat * $_SESSION['keranjang'][$a]['jumlah']; 
+                          $xd = $i->$_SESSION['keranjang'][$a]['jumlah']; 
 
                           $total_berat += $xd;
                           ?>
